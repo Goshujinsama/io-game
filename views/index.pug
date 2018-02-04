@@ -1,9 +1,10 @@
 extends layout
 
 block head
-  script(src="client/lib/phaser.js")
+  script(src="//cdn.jsdelivr.net/npm/phaser-ce@2.9.4")
   script(src="/socket.io/socket.io.js")
-  script(src="client/player.js")
+  script(src="javascripts/player_physics.js")
+  script(src="javascripts/snake.js")
   script(src="javascripts/main.js")
 
 block content
